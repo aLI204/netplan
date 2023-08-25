@@ -1,1 +1,9 @@
-
+# This is the network config written by 'subiquity'
+network:
+ wifis:
+  wlp6s0:
+   optional: true
+   dhcp4: true
+   access-points:
+    "YOUR-SSID":
+     password: "YOUR-PASSWORD"
